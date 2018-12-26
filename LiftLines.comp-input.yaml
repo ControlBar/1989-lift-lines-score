@@ -1,0 +1,1111 @@
+comp:
+  compName: Lift Lines 1989
+  discipline: pg
+  location: Kössen Austria
+  from: 1989-09-01
+  to: 1989-09-12
+  civilId: '0'
+  utcOffset:
+    timeZoneMinutes: 0
+  scoreBack: 300.000 s
+nominal:
+  launch: 0.96
+  goal: 0.25
+  distance: 70.0 km
+  free: 7.0 km
+  time: 1.500000 h
+tasks:
+- taskName: AATB ESS is not Goal
+  zones:
+    raw:
+    - zoneName: 4WAYS
+      lat: -32.4916
+      lng: 147.91973
+      radius: 400.0 m
+    - zoneName: AFARM
+      lat: -33.1903
+      lng: 147.9857
+      radius: 400.0 m
+    - zoneName: ALEC
+      lat: -32.897
+      lng: 148.2638
+      radius: 400.0 m
+    - zoneName: ARDLE
+      lat: -34.4125
+      lng: 146.8543
+      radius: 400.0 m
+    raceKind:
+      prolog:
+      - cylinder:
+          center:
+          - -32.49160000 deg
+          - 147.91973000 deg
+          radius: 400.0 m
+      race:
+      - cylinder:
+          center:
+          - -33.19030000 deg
+          - 147.98570000 deg
+          radius: 400.0 m
+      race-ess:
+        cut-cylinder:
+          altitude: 340.00000000 m
+          center:
+          - -32.89700000 deg
+          - 148.26380000 deg
+          radius: 400.0 m
+          time-bonus: 0.450 s / m
+      epilog: []
+      goal:
+        semicircle:
+          center:
+          - -34.41250000 deg
+          - 146.85430000 deg
+          radius: 400.0 m
+    openKind: null
+  speedSection:
+  - 2
+  - 3
+  zoneTimes:
+  - open: 2018-07-13T12:00:00Z
+    close: 2018-07-13T20:00:00Z
+  startGates:
+  - 2018-07-13T12:00:00Z
+  absent: []
+  stopped: null
+- taskName: AATB ESS is Goal
+  zones:
+    raw:
+    - zoneName: 4WAYS
+      lat: -32.4916
+      lng: 147.91973
+      radius: 400.0 m
+    - zoneName: AFARM
+      lat: -33.1903
+      lng: 147.9857
+      radius: 400.0 m
+    - zoneName: ALEC
+      lat: -32.897
+      lng: 148.2638
+      radius: 400.0 m
+    - zoneName: ARDLE
+      lat: -34.4125
+      lng: 146.8543
+      radius: 400.0 m
+    raceKind:
+      prolog:
+      - cylinder:
+          center:
+          - -32.49160000 deg
+          - 147.91973000 deg
+          radius: 400.0 m
+      race:
+      - cylinder:
+          center:
+          - -33.19030000 deg
+          - 147.98570000 deg
+          radius: 400.0 m
+      - cylinder:
+          center:
+          - -32.89700000 deg
+          - 148.26380000 deg
+          radius: 400.0 m
+      race-ess-is-goal:
+        cut-semi-cylinder:
+          altitude: 198.00000000 m
+          center:
+          - -34.41250000 deg
+          - 146.85430000 deg
+          radius: 400.0 m
+          time-bonus: 0.450 s / m
+    openKind: null
+  speedSection:
+  - 2
+  - 4
+  zoneTimes:
+  - open: 2018-07-13T12:00:00Z
+    close: 2018-07-13T20:00:00Z
+  startGates:
+  - 2018-07-13T12:00:00Z
+  absent: []
+  stopped: null
+- taskName: AATB Epilogue
+  zones:
+    raw:
+    - zoneName: 4WAYS
+      lat: -32.4916
+      lng: 147.91973
+      radius: 400.0 m
+    - zoneName: AFARM
+      lat: -33.1903
+      lng: 147.9857
+      radius: 400.0 m
+    - zoneName: ALEC
+      lat: -32.897
+      lng: 148.2638
+      radius: 400.0 m
+    - zoneName: AFARM
+      lat: -33.1903
+      lng: 147.9857
+      radius: 400.0 m
+    - zoneName: ARDLE
+      lat: -34.4125
+      lng: 146.8543
+      radius: 400.0 m
+    raceKind:
+      prolog:
+      - cylinder:
+          center:
+          - -32.49160000 deg
+          - 147.91973000 deg
+          radius: 400.0 m
+      race:
+      - cylinder:
+          center:
+          - -33.19030000 deg
+          - 147.98570000 deg
+          radius: 400.0 m
+      race-ess:
+        cut-cylinder:
+          altitude: 340.00000000 m
+          center:
+          - -32.89700000 deg
+          - 148.26380000 deg
+          radius: 400.0 m
+          time-bonus: 0.450 s / m
+      epilog:
+      - cylinder:
+          center:
+          - -33.19030000 deg
+          - 147.98570000 deg
+          radius: 400.0 m
+      goal:
+        semicircle:
+          center:
+          - -34.41250000 deg
+          - 146.85430000 deg
+          radius: 400.0 m
+    openKind: null
+  speedSection:
+  - 2
+  - 3
+  zoneTimes:
+  - open: 2018-07-13T12:00:00Z
+    close: 2018-07-13T20:00:00Z
+  startGates:
+  - 2018-07-13T12:00:00Z
+  absent: []
+  stopped: null
+- taskName: CESS ESS is not Goal
+  zones:
+    raw:
+    - zoneName: 4WAYS
+      lat: -32.4916
+      lng: 147.91973
+      radius: 400.0 m
+    - zoneName: AFARM
+      lat: -33.1903
+      lng: 147.9857
+      radius: 400.0 m
+    - zoneName: ALEC
+      lat: -32.897
+      lng: 148.2638
+      radius: 400.0 m
+    - zoneName: ARDLE
+      lat: -34.4125
+      lng: 146.8543
+      radius: 400.0 m
+    raceKind:
+      prolog:
+      - cylinder:
+          center:
+          - -32.49160000 deg
+          - 147.91973000 deg
+          radius: 400.0 m
+      race:
+      - cylinder:
+          center:
+          - -33.19030000 deg
+          - 147.98570000 deg
+          radius: 400.0 m
+      race-ess:
+        cut-cone:
+          altitude: 340.00000000 m
+          center:
+          - -32.89700000 deg
+          - 148.26380000 deg
+          incline: 15.945 deg
+          radius: 400.0 m
+      epilog: []
+      goal:
+        semicircle:
+          center:
+          - -34.41250000 deg
+          - 146.85430000 deg
+          radius: 400.0 m
+    openKind: null
+  speedSection:
+  - 2
+  - 3
+  zoneTimes:
+  - open: 2018-07-13T12:00:00Z
+    close: 2018-07-13T20:00:00Z
+  startGates:
+  - 2018-07-13T12:00:00Z
+  absent: []
+  stopped: null
+- taskName: CESS ESS is Goal
+  zones:
+    raw:
+    - zoneName: 4WAYS
+      lat: -32.4916
+      lng: 147.91973
+      radius: 400.0 m
+    - zoneName: AFARM
+      lat: -33.1903
+      lng: 147.9857
+      radius: 400.0 m
+    - zoneName: ALEC
+      lat: -32.897
+      lng: 148.2638
+      radius: 400.0 m
+    - zoneName: ARDLE
+      lat: -34.4125
+      lng: 146.8543
+      radius: 400.0 m
+    raceKind:
+      prolog:
+      - cylinder:
+          center:
+          - -32.49160000 deg
+          - 147.91973000 deg
+          radius: 400.0 m
+      race:
+      - cylinder:
+          center:
+          - -33.19030000 deg
+          - 147.98570000 deg
+          radius: 400.0 m
+      - cylinder:
+          center:
+          - -32.89700000 deg
+          - 148.26380000 deg
+          radius: 400.0 m
+      race-ess-is-goal:
+        cut-semi-cone:
+          altitude: 198.00000000 m
+          center:
+          - -34.41250000 deg
+          - 146.85430000 deg
+          incline: 15.945 deg
+          radius: 400.0 m
+    openKind: null
+  speedSection:
+  - 2
+  - 4
+  zoneTimes:
+  - open: 2018-07-13T12:00:00Z
+    close: 2018-07-13T20:00:00Z
+  startGates:
+  - 2018-07-13T12:00:00Z
+  absent: []
+  stopped: null
+- taskName: CESS Epilogue
+  zones:
+    raw:
+    - zoneName: 4WAYS
+      lat: -32.4916
+      lng: 147.91973
+      radius: 400.0 m
+    - zoneName: AFARM
+      lat: -33.1903
+      lng: 147.9857
+      radius: 400.0 m
+    - zoneName: ALEC
+      lat: -32.897
+      lng: 148.2638
+      radius: 400.0 m
+    - zoneName: AFARM
+      lat: -33.1903
+      lng: 147.9857
+      radius: 400.0 m
+    - zoneName: ARDLE
+      lat: -34.4125
+      lng: 146.8543
+      radius: 400.0 m
+    raceKind:
+      prolog:
+      - cylinder:
+          center:
+          - -32.49160000 deg
+          - 147.91973000 deg
+          radius: 400.0 m
+      race:
+      - cylinder:
+          center:
+          - -33.19030000 deg
+          - 147.98570000 deg
+          radius: 400.0 m
+      race-ess:
+        cut-cone:
+          altitude: 340.00000000 m
+          center:
+          - -32.89700000 deg
+          - 148.26380000 deg
+          incline: 15.945 deg
+          radius: 400.0 m
+      epilog:
+      - cylinder:
+          center:
+          - -33.19030000 deg
+          - 147.98570000 deg
+          radius: 400.0 m
+      goal:
+        semicircle:
+          center:
+          - -34.41250000 deg
+          - 146.85430000 deg
+          radius: 400.0 m
+    openKind: null
+  speedSection:
+  - 2
+  - 3
+  zoneTimes:
+  - open: 2018-07-13T12:00:00Z
+    close: 2018-07-13T20:00:00Z
+  startGates:
+  - 2018-07-13T12:00:00Z
+  absent: []
+  stopped: null
+- taskName: No decelerator, ESS is not Goal
+  zones:
+    raw:
+    - zoneName: 4WAYS
+      lat: -32.4916
+      lng: 147.91973
+      radius: 400.0 m
+    - zoneName: AFARM
+      lat: -33.1903
+      lng: 147.9857
+      radius: 400.0 m
+    - zoneName: ALEC
+      lat: -32.897
+      lng: 148.2638
+      radius: 400.0 m
+    - zoneName: ARDLE
+      lat: -34.4125
+      lng: 146.8543
+      radius: 400.0 m
+    raceKind:
+      prolog:
+      - cylinder:
+          center:
+          - -32.49160000 deg
+          - 147.91973000 deg
+          radius: 400.0 m
+      race:
+      - cylinder:
+          center:
+          - -33.19030000 deg
+          - 147.98570000 deg
+          radius: 400.0 m
+      race-ess:
+        cylinder:
+          center:
+          - -32.89700000 deg
+          - 148.26380000 deg
+          radius: 400.0 m
+      epilog: []
+      goal:
+        semicircle:
+          center:
+          - -34.41250000 deg
+          - 146.85430000 deg
+          radius: 400.0 m
+    openKind: null
+  speedSection:
+  - 2
+  - 3
+  zoneTimes:
+  - open: 2018-07-16T12:00:00Z
+    close: 2018-07-16T20:00:00Z
+  startGates:
+  - 2018-07-16T12:00:00Z
+  absent: []
+  stopped: null
+- taskName: No decelerator, ESS is Goal
+  zones:
+    raw:
+    - zoneName: 4WAYS
+      lat: -32.4916
+      lng: 147.91973
+      radius: 400.0 m
+    - zoneName: AFARM
+      lat: -33.1903
+      lng: 147.9857
+      radius: 400.0 m
+    - zoneName: ALEC
+      lat: -32.897
+      lng: 148.2638
+      radius: 400.0 m
+    - zoneName: ARDLE
+      lat: -34.4125
+      lng: 146.8543
+      radius: 400.0 m
+    raceKind:
+      prolog:
+      - cylinder:
+          center:
+          - -32.49160000 deg
+          - 147.91973000 deg
+          radius: 400.0 m
+      race:
+      - cylinder:
+          center:
+          - -33.19030000 deg
+          - 147.98570000 deg
+          radius: 400.0 m
+      - cylinder:
+          center:
+          - -32.89700000 deg
+          - 148.26380000 deg
+          radius: 400.0 m
+      race-ess-is-goal:
+        circle:
+          center:
+          - -34.41250000 deg
+          - 146.85430000 deg
+          radius: 400.0 m
+    openKind: null
+  speedSection:
+  - 2
+  - 4
+  zoneTimes:
+  - open: 2018-07-16T12:00:00Z
+    close: 2018-07-16T20:00:00Z
+  startGates:
+  - 2018-07-16T12:00:00Z
+  absent: []
+  stopped: null
+- taskName: No decelerator, Epilogue
+  zones:
+    raw:
+    - zoneName: 4WAYS
+      lat: -32.4916
+      lng: 147.91973
+      radius: 400.0 m
+    - zoneName: AFARM
+      lat: -33.1903
+      lng: 147.9857
+      radius: 400.0 m
+    - zoneName: ALEC
+      lat: -32.897
+      lng: 148.2638
+      radius: 400.0 m
+    - zoneName: AFARM
+      lat: -33.1903
+      lng: 147.9857
+      radius: 400.0 m
+    - zoneName: ARDLE
+      lat: -34.4125
+      lng: 146.8543
+      radius: 400.0 m
+    raceKind:
+      prolog:
+      - cylinder:
+          center:
+          - -32.49160000 deg
+          - 147.91973000 deg
+          radius: 400.0 m
+      race:
+      - cylinder:
+          center:
+          - -33.19030000 deg
+          - 147.98570000 deg
+          radius: 400.0 m
+      race-ess:
+        cylinder:
+          center:
+          - -32.89700000 deg
+          - 148.26380000 deg
+          radius: 400.0 m
+      epilog:
+      - cylinder:
+          center:
+          - -33.19030000 deg
+          - 147.98570000 deg
+          radius: 400.0 m
+      goal:
+        semicircle:
+          center:
+          - -34.41250000 deg
+          - 146.85430000 deg
+          radius: 400.0 m
+    openKind: null
+  speedSection:
+  - 2
+  - 3
+  zoneTimes:
+  - open: 2018-07-16T12:00:00Z
+    close: 2018-07-16T20:00:00Z
+  startGates:
+  - 2018-07-16T12:00:00Z
+  absent: []
+  stopped: null
+- taskName: AATB, Circle ESS is not Goal
+  zones:
+    raw:
+    - zoneName: 4WAYS
+      lat: -32.4916
+      lng: 147.91973
+      radius: 400.0 m
+    - zoneName: AFARM
+      lat: -33.1903
+      lng: 147.9857
+      radius: 400.0 m
+    - zoneName: ALEC
+      lat: -32.897
+      lng: 148.2638
+      radius: 400.0 m
+    - zoneName: ARDLE
+      lat: -34.4125
+      lng: 146.8543
+      radius: 400.0 m
+    raceKind:
+      prolog:
+      - cylinder:
+          center:
+          - -32.49160000 deg
+          - 147.91973000 deg
+          radius: 400.0 m
+      race:
+      - cylinder:
+          center:
+          - -33.19030000 deg
+          - 147.98570000 deg
+          radius: 400.0 m
+      race-ess:
+        cut-cylinder:
+          altitude: 340.00000000 m
+          center:
+          - -32.89700000 deg
+          - 148.26380000 deg
+          radius: 400.0 m
+          time-bonus: 0.450 s / m
+      epilog: []
+      goal:
+        circle:
+          center:
+          - -34.41250000 deg
+          - 146.85430000 deg
+          radius: 400.0 m
+    openKind: null
+  speedSection:
+  - 2
+  - 3
+  zoneTimes:
+  - open: 2018-07-13T12:00:00Z
+    close: 2018-07-13T20:00:00Z
+  startGates:
+  - 2018-07-13T12:00:00Z
+  absent: []
+  stopped: null
+- taskName: AATB, Circle ESS is Goal
+  zones:
+    raw:
+    - zoneName: 4WAYS
+      lat: -32.4916
+      lng: 147.91973
+      radius: 400.0 m
+    - zoneName: AFARM
+      lat: -33.1903
+      lng: 147.9857
+      radius: 400.0 m
+    - zoneName: ALEC
+      lat: -32.897
+      lng: 148.2638
+      radius: 400.0 m
+    - zoneName: ARDLE
+      lat: -34.4125
+      lng: 146.8543
+      radius: 400.0 m
+    raceKind:
+      prolog:
+      - cylinder:
+          center:
+          - -32.49160000 deg
+          - 147.91973000 deg
+          radius: 400.0 m
+      race:
+      - cylinder:
+          center:
+          - -33.19030000 deg
+          - 147.98570000 deg
+          radius: 400.0 m
+      - cylinder:
+          center:
+          - -32.89700000 deg
+          - 148.26380000 deg
+          radius: 400.0 m
+      race-ess-is-goal:
+        cut-cylinder:
+          altitude: 198.00000000 m
+          center:
+          - -34.41250000 deg
+          - 146.85430000 deg
+          radius: 400.0 m
+          time-bonus: 0.450 s / m
+    openKind: null
+  speedSection:
+  - 2
+  - 4
+  zoneTimes:
+  - open: 2018-07-13T12:00:00Z
+    close: 2018-07-13T20:00:00Z
+  startGates:
+  - 2018-07-13T12:00:00Z
+  absent: []
+  stopped: null
+- taskName: AATB, Circle Goal with Epilogue
+  zones:
+    raw:
+    - zoneName: 4WAYS
+      lat: -32.4916
+      lng: 147.91973
+      radius: 400.0 m
+    - zoneName: AFARM
+      lat: -33.1903
+      lng: 147.9857
+      radius: 400.0 m
+    - zoneName: ALEC
+      lat: -32.897
+      lng: 148.2638
+      radius: 400.0 m
+    - zoneName: AFARM
+      lat: -33.1903
+      lng: 147.9857
+      radius: 400.0 m
+    - zoneName: ARDLE
+      lat: -34.4125
+      lng: 146.8543
+      radius: 400.0 m
+    raceKind:
+      prolog:
+      - cylinder:
+          center:
+          - -32.49160000 deg
+          - 147.91973000 deg
+          radius: 400.0 m
+      race:
+      - cylinder:
+          center:
+          - -33.19030000 deg
+          - 147.98570000 deg
+          radius: 400.0 m
+      race-ess:
+        cut-cylinder:
+          altitude: 340.00000000 m
+          center:
+          - -32.89700000 deg
+          - 148.26380000 deg
+          radius: 400.0 m
+          time-bonus: 0.450 s / m
+      epilog:
+      - cylinder:
+          center:
+          - -33.19030000 deg
+          - 147.98570000 deg
+          radius: 400.0 m
+      goal:
+        circle:
+          center:
+          - -34.41250000 deg
+          - 146.85430000 deg
+          radius: 400.0 m
+    openKind: null
+  speedSection:
+  - 2
+  - 3
+  zoneTimes:
+  - open: 2018-07-13T12:00:00Z
+    close: 2018-07-13T20:00:00Z
+  startGates:
+  - 2018-07-13T12:00:00Z
+  absent: []
+  stopped: null
+- taskName: CESS, Circle ESS is not Goal
+  zones:
+    raw:
+    - zoneName: 4WAYS
+      lat: -32.4916
+      lng: 147.91973
+      radius: 400.0 m
+    - zoneName: AFARM
+      lat: -33.1903
+      lng: 147.9857
+      radius: 400.0 m
+    - zoneName: ALEC
+      lat: -32.897
+      lng: 148.2638
+      radius: 400.0 m
+    - zoneName: ARDLE
+      lat: -34.4125
+      lng: 146.8543
+      radius: 400.0 m
+    raceKind:
+      prolog:
+      - cylinder:
+          center:
+          - -32.49160000 deg
+          - 147.91973000 deg
+          radius: 400.0 m
+      race:
+      - cylinder:
+          center:
+          - -33.19030000 deg
+          - 147.98570000 deg
+          radius: 400.0 m
+      race-ess:
+        cut-cone:
+          altitude: 340.00000000 m
+          center:
+          - -32.89700000 deg
+          - 148.26380000 deg
+          incline: 15.945 deg
+          radius: 400.0 m
+      epilog: []
+      goal:
+        circle:
+          center:
+          - -34.41250000 deg
+          - 146.85430000 deg
+          radius: 400.0 m
+    openKind: null
+  speedSection:
+  - 2
+  - 3
+  zoneTimes:
+  - open: 2018-07-13T12:00:00Z
+    close: 2018-07-13T20:00:00Z
+  startGates:
+  - 2018-07-13T12:00:00Z
+  absent: []
+  stopped: null
+- taskName: CESS, Circle ESS is Goal
+  zones:
+    raw:
+    - zoneName: 4WAYS
+      lat: -32.4916
+      lng: 147.91973
+      radius: 400.0 m
+    - zoneName: AFARM
+      lat: -33.1903
+      lng: 147.9857
+      radius: 400.0 m
+    - zoneName: ALEC
+      lat: -32.897
+      lng: 148.2638
+      radius: 400.0 m
+    - zoneName: ARDLE
+      lat: -34.4125
+      lng: 146.8543
+      radius: 400.0 m
+    raceKind:
+      prolog:
+      - cylinder:
+          center:
+          - -32.49160000 deg
+          - 147.91973000 deg
+          radius: 400.0 m
+      race:
+      - cylinder:
+          center:
+          - -33.19030000 deg
+          - 147.98570000 deg
+          radius: 400.0 m
+      - cylinder:
+          center:
+          - -32.89700000 deg
+          - 148.26380000 deg
+          radius: 400.0 m
+      race-ess-is-goal:
+        cut-cone:
+          altitude: 198.00000000 m
+          center:
+          - -34.41250000 deg
+          - 146.85430000 deg
+          incline: 15.945 deg
+          radius: 400.0 m
+    openKind: null
+  speedSection:
+  - 2
+  - 4
+  zoneTimes:
+  - open: 2018-07-13T12:00:00Z
+    close: 2018-07-13T20:00:00Z
+  startGates:
+  - 2018-07-13T12:00:00Z
+  absent: []
+  stopped: null
+- taskName: CESS, Circle Goal with Epilogue
+  zones:
+    raw:
+    - zoneName: 4WAYS
+      lat: -32.4916
+      lng: 147.91973
+      radius: 400.0 m
+    - zoneName: AFARM
+      lat: -33.1903
+      lng: 147.9857
+      radius: 400.0 m
+    - zoneName: ALEC
+      lat: -32.897
+      lng: 148.2638
+      radius: 400.0 m
+    - zoneName: AFARM
+      lat: -33.1903
+      lng: 147.9857
+      radius: 400.0 m
+    - zoneName: ARDLE
+      lat: -34.4125
+      lng: 146.8543
+      radius: 400.0 m
+    raceKind:
+      prolog:
+      - cylinder:
+          center:
+          - -32.49160000 deg
+          - 147.91973000 deg
+          radius: 400.0 m
+      race:
+      - cylinder:
+          center:
+          - -33.19030000 deg
+          - 147.98570000 deg
+          radius: 400.0 m
+      race-ess:
+        cut-cone:
+          altitude: 340.00000000 m
+          center:
+          - -32.89700000 deg
+          - 148.26380000 deg
+          incline: 15.945 deg
+          radius: 400.0 m
+      epilog:
+      - cylinder:
+          center:
+          - -33.19030000 deg
+          - 147.98570000 deg
+          radius: 400.0 m
+      goal:
+        circle:
+          center:
+          - -34.41250000 deg
+          - 146.85430000 deg
+          radius: 400.0 m
+    openKind: null
+  speedSection:
+  - 2
+  - 3
+  zoneTimes:
+  - open: 2018-07-13T12:00:00Z
+    close: 2018-07-13T20:00:00Z
+  startGates:
+  - 2018-07-13T12:00:00Z
+  absent: []
+  stopped: null
+- taskName: No Decelerator, ESS is not Goal
+  zones:
+    raw:
+    - zoneName: 4WAYS
+      lat: -32.4916
+      lng: 147.91973
+      radius: 400.0 m
+    - zoneName: AFARM
+      lat: -33.1903
+      lng: 147.9857
+      radius: 400.0 m
+    - zoneName: ALEC
+      lat: -32.897
+      lng: 148.2638
+      radius: 400.0 m
+    - zoneName: ARDLE
+      lat: -34.4125
+      lng: 146.8543
+      radius: 400.0 m
+    raceKind:
+      prolog:
+      - cylinder:
+          center:
+          - -32.49160000 deg
+          - 147.91973000 deg
+          radius: 400.0 m
+      race:
+      - cylinder:
+          center:
+          - -33.19030000 deg
+          - 147.98570000 deg
+          radius: 400.0 m
+      race-ess:
+        cylinder:
+          center:
+          - -32.89700000 deg
+          - 148.26380000 deg
+          radius: 400.0 m
+      epilog: []
+      goal:
+        circle:
+          center:
+          - -34.41250000 deg
+          - 146.85430000 deg
+          radius: 400.0 m
+    openKind: null
+  speedSection:
+  - 2
+  - 3
+  zoneTimes:
+  - open: 2018-07-13T12:00:00Z
+    close: 2018-07-13T20:00:00Z
+  startGates:
+  - 2018-07-13T12:00:00Z
+  absent: []
+  stopped: null
+- taskName: No decelerator, ESS is Goal
+  zones:
+    raw:
+    - zoneName: 4WAYS
+      lat: -32.4916
+      lng: 147.91973
+      radius: 400.0 m
+    - zoneName: AFARM
+      lat: -33.1903
+      lng: 147.9857
+      radius: 400.0 m
+    - zoneName: ALEC
+      lat: -32.897
+      lng: 148.2638
+      radius: 400.0 m
+    - zoneName: ARDLE
+      lat: -34.4125
+      lng: 146.8543
+      radius: 400.0 m
+    raceKind:
+      prolog:
+      - cylinder:
+          center:
+          - -32.49160000 deg
+          - 147.91973000 deg
+          radius: 400.0 m
+      race:
+      - cylinder:
+          center:
+          - -33.19030000 deg
+          - 147.98570000 deg
+          radius: 400.0 m
+      - cylinder:
+          center:
+          - -32.89700000 deg
+          - 148.26380000 deg
+          radius: 400.0 m
+      race-ess-is-goal:
+        circle:
+          center:
+          - -34.41250000 deg
+          - 146.85430000 deg
+          radius: 400.0 m
+    openKind: null
+  speedSection:
+  - 2
+  - 4
+  zoneTimes:
+  - open: 2018-07-13T12:00:00Z
+    close: 2018-07-13T20:00:00Z
+  startGates:
+  - 2018-07-13T12:00:00Z
+  absent: []
+  stopped: null
+- taskName: No decelerator, Epilogue
+  zones:
+    raw:
+    - zoneName: 4WAYS
+      lat: -32.4916
+      lng: 147.91973
+      radius: 400.0 m
+    - zoneName: AFARM
+      lat: -33.1903
+      lng: 147.9857
+      radius: 400.0 m
+    - zoneName: ALEC
+      lat: -32.897
+      lng: 148.2638
+      radius: 400.0 m
+    - zoneName: AFARM
+      lat: -33.1903
+      lng: 147.9857
+      radius: 400.0 m
+    - zoneName: ARDLE
+      lat: -34.4125
+      lng: 146.8543
+      radius: 400.0 m
+    raceKind:
+      prolog:
+      - cylinder:
+          center:
+          - -32.49160000 deg
+          - 147.91973000 deg
+          radius: 400.0 m
+      race:
+      - cylinder:
+          center:
+          - -33.19030000 deg
+          - 147.98570000 deg
+          radius: 400.0 m
+      race-ess:
+        cylinder:
+          center:
+          - -32.89700000 deg
+          - 148.26380000 deg
+          radius: 400.0 m
+      epilog:
+      - cylinder:
+          center:
+          - -33.19030000 deg
+          - 147.98570000 deg
+          radius: 400.0 m
+      goal:
+        circle:
+          center:
+          - -34.41250000 deg
+          - 146.85430000 deg
+          radius: 400.0 m
+    openKind: null
+  speedSection:
+  - 2
+  - 3
+  zoneTimes:
+  - open: 2018-07-13T12:00:00Z
+    close: 2018-07-13T20:00:00Z
+  startGates:
+  - 2018-07-13T12:00:00Z
+  absent: []
+  stopped: null
+taskFolders:
+- - ''
+- - ''
+- - ''
+- - ''
+- - ''
+- - ''
+- - ''
+- - ''
+- - ''
+- - ''
+- - ''
+- - ''
+- - ''
+- - ''
+- - ''
+- - ''
+- - ''
+- - ''
+pilots: []
