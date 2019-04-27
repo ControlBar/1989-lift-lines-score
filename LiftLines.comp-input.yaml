@@ -21,6 +21,9 @@ nominal:
   distance: 70.0 km
   free: 7.0 km
   time: 1.500000 h
+compTweak:
+  arrivalWeightScaling: null
+  leadingWeightScaling: null
 tasks:
 - taskName: AATB ESS is not Goal
   zones:
@@ -86,8 +89,11 @@ tasks:
     close: 2018-07-13T20:00:00Z
   startGates:
   - 2018-07-13T12:00:00Z
-  absent: []
   stopped: null
+  taskTweak:
+    arrivalWeightScaling: null
+    leadingWeightScaling: null
+  penals: []
 - taskName: AATB ESS is Goal
   zones:
     raw:
@@ -150,8 +156,11 @@ tasks:
     close: 2018-07-13T20:00:00Z
   startGates:
   - 2018-07-13T12:00:00Z
-  absent: []
   stopped: null
+  taskTweak:
+    arrivalWeightScaling: null
+    leadingWeightScaling: null
+  penals: []
 - taskName: AATB Epilogue
   zones:
     raw:
@@ -227,8 +236,11 @@ tasks:
     close: 2018-07-13T20:00:00Z
   startGates:
   - 2018-07-13T12:00:00Z
-  absent: []
   stopped: null
+  taskTweak:
+    arrivalWeightScaling: null
+    leadingWeightScaling: null
+  penals: []
 - taskName: CESS ESS is not Goal
   zones:
     raw:
@@ -293,8 +305,11 @@ tasks:
     close: 2018-07-13T20:00:00Z
   startGates:
   - 2018-07-13T12:00:00Z
-  absent: []
   stopped: null
+  taskTweak:
+    arrivalWeightScaling: null
+    leadingWeightScaling: null
+  penals: []
 - taskName: CESS ESS is Goal
   zones:
     raw:
@@ -357,8 +372,11 @@ tasks:
     close: 2018-07-13T20:00:00Z
   startGates:
   - 2018-07-13T12:00:00Z
-  absent: []
   stopped: null
+  taskTweak:
+    arrivalWeightScaling: null
+    leadingWeightScaling: null
+  penals: []
 - taskName: CESS Epilogue
   zones:
     raw:
@@ -434,8 +452,11 @@ tasks:
     close: 2018-07-13T20:00:00Z
   startGates:
   - 2018-07-13T12:00:00Z
-  absent: []
   stopped: null
+  taskTweak:
+    arrivalWeightScaling: null
+    leadingWeightScaling: null
+  penals: []
 - taskName: No decelerator, ESS is not Goal
   zones:
     raw:
@@ -498,8 +519,11 @@ tasks:
     close: 2018-07-16T20:00:00Z
   startGates:
   - 2018-07-16T12:00:00Z
-  absent: []
   stopped: null
+  taskTweak:
+    arrivalWeightScaling: null
+    leadingWeightScaling: null
+  penals: []
 - taskName: No decelerator, ESS is Goal
   zones:
     raw:
@@ -560,8 +584,11 @@ tasks:
     close: 2018-07-16T20:00:00Z
   startGates:
   - 2018-07-16T12:00:00Z
-  absent: []
   stopped: null
+  taskTweak:
+    arrivalWeightScaling: null
+    leadingWeightScaling: null
+  penals: []
 - taskName: No decelerator, Epilogue
   zones:
     raw:
@@ -635,8 +662,11 @@ tasks:
     close: 2018-07-16T20:00:00Z
   startGates:
   - 2018-07-16T12:00:00Z
-  absent: []
   stopped: null
+  taskTweak:
+    arrivalWeightScaling: null
+    leadingWeightScaling: null
+  penals: []
 - taskName: AATB, Circle ESS is not Goal
   zones:
     raw:
@@ -701,8 +731,11 @@ tasks:
     close: 2018-07-13T20:00:00Z
   startGates:
   - 2018-07-13T12:00:00Z
-  absent: []
   stopped: null
+  taskTweak:
+    arrivalWeightScaling: null
+    leadingWeightScaling: null
+  penals: []
 - taskName: AATB, Circle ESS is Goal
   zones:
     raw:
@@ -765,8 +798,11 @@ tasks:
     close: 2018-07-13T20:00:00Z
   startGates:
   - 2018-07-13T12:00:00Z
-  absent: []
   stopped: null
+  taskTweak:
+    arrivalWeightScaling: null
+    leadingWeightScaling: null
+  penals: []
 - taskName: AATB, Circle Goal with Epilogue
   zones:
     raw:
@@ -842,8 +878,11 @@ tasks:
     close: 2018-07-13T20:00:00Z
   startGates:
   - 2018-07-13T12:00:00Z
-  absent: []
   stopped: null
+  taskTweak:
+    arrivalWeightScaling: null
+    leadingWeightScaling: null
+  penals: []
 - taskName: CESS, Circle ESS is not Goal
   zones:
     raw:
@@ -908,8 +947,11 @@ tasks:
     close: 2018-07-13T20:00:00Z
   startGates:
   - 2018-07-13T12:00:00Z
-  absent: []
   stopped: null
+  taskTweak:
+    arrivalWeightScaling: null
+    leadingWeightScaling: null
+  penals: []
 - taskName: CESS, Circle ESS is Goal
   zones:
     raw:
@@ -972,8 +1014,11 @@ tasks:
     close: 2018-07-13T20:00:00Z
   startGates:
   - 2018-07-13T12:00:00Z
-  absent: []
   stopped: null
+  taskTweak:
+    arrivalWeightScaling: null
+    leadingWeightScaling: null
+  penals: []
 - taskName: CESS, Circle Goal with Epilogue
   zones:
     raw:
@@ -1049,8 +1094,11 @@ tasks:
     close: 2018-07-13T20:00:00Z
   startGates:
   - 2018-07-13T12:00:00Z
-  absent: []
   stopped: null
+  taskTweak:
+    arrivalWeightScaling: null
+    leadingWeightScaling: null
+  penals: []
 - taskName: No Decelerator, ESS is not Goal
   zones:
     raw:
@@ -1113,8 +1161,11 @@ tasks:
     close: 2018-07-13T20:00:00Z
   startGates:
   - 2018-07-13T12:00:00Z
-  absent: []
   stopped: null
+  taskTweak:
+    arrivalWeightScaling: null
+    leadingWeightScaling: null
+  penals: []
 - taskName: No decelerator, ESS is Goal
   zones:
     raw:
@@ -1175,8 +1226,11 @@ tasks:
     close: 2018-07-13T20:00:00Z
   startGates:
   - 2018-07-13T12:00:00Z
-  absent: []
   stopped: null
+  taskTweak:
+    arrivalWeightScaling: null
+    leadingWeightScaling: null
+  penals: []
 - taskName: No decelerator, Epilogue
   zones:
     raw:
@@ -1250,8 +1304,11 @@ tasks:
     close: 2018-07-13T20:00:00Z
   startGates:
   - 2018-07-13T12:00:00Z
-  absent: []
   stopped: null
+  taskTweak:
+    arrivalWeightScaling: null
+    leadingWeightScaling: null
+  penals: []
 taskFolders:
 - - ''
 - - ''
@@ -1272,3 +1329,4 @@ taskFolders:
 - - ''
 - - ''
 pilots: []
+pilotGroups: []
