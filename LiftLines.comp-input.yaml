@@ -1,7 +1,7 @@
 comp:
   compName: Lift Lines 1989
   discipline: pg
-  earthMath: Pythagorus
+  earthMath: Vincenty
   location: Kössen Austria
   from: 1989-09-01
   to: 1989-09-12
@@ -10,16 +10,17 @@ comp:
     timeZoneMinutes: 0
   scoreBack: 300.000 s
   give:
-    giveFraction: 5.0e-4
-    giveDistance: null
+    giveFraction: 1.0e-4
+    giveDistance: 5.0 m
   earth:
-    flat:
-      projection: UTM
+    ellipsoid:
+      equatorialR: 6378137.0 m
+      recipF: 298.257223563
 nominal:
   launch: 0.96
   goal: 0.25
   distance: 70.0 km
-  free: 7.0 km
+  free: 7.000 km
   time: 1.500000 h
 compTweak:
   arrivalWeightScaling: null
@@ -32,25 +33,29 @@ tasks:
       lat: -32.4916
       lng: 147.91973
       radius: 400.0 m
-      give: 399.8 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 222.000 m
     - zoneName: AFARM
       lat: -33.1903
       lng: 147.9857
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 250.000 m
     - zoneName: ALEC
       lat: -32.897
       lng: 148.2638
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 340.000 m
     - zoneName: ARDLE
       lat: -34.4125
       lng: 146.8543
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 198.000 m
     raceKind:
       prolog:
@@ -66,13 +71,11 @@ tasks:
           - 147.98570000 deg
           radius: 400.0 m
       race-ess:
-        cut-cylinder:
-          altitude: 340.000 m
+        cylinder:
           center:
           - -32.89700000 deg
           - 148.26380000 deg
           radius: 400.0 m
-          time-bonus: 0.450 s / m
       epilog: []
       goal:
         semicircle:
@@ -93,6 +96,9 @@ tasks:
   taskTweak:
     arrivalWeightScaling: null
     leadingWeightScaling: null
+  earlyStart:
+    earliest: 0 s
+    earlyPenalty: 0 s
   penals: []
 - taskName: AATB ESS is Goal
   zones:
@@ -101,25 +107,29 @@ tasks:
       lat: -32.4916
       lng: 147.91973
       radius: 400.0 m
-      give: 399.8 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 222.000 m
     - zoneName: AFARM
       lat: -33.1903
       lng: 147.9857
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 250.000 m
     - zoneName: ALEC
       lat: -32.897
       lng: 148.2638
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 340.000 m
     - zoneName: ARDLE
       lat: -34.4125
       lng: 146.8543
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 198.000 m
     raceKind:
       prolog:
@@ -140,13 +150,11 @@ tasks:
           - 148.26380000 deg
           radius: 400.0 m
       race-ess-is-goal:
-        cut-semi-cylinder:
-          altitude: 198.000 m
+        semicircle:
           center:
           - -34.41250000 deg
           - 146.85430000 deg
           radius: 400.0 m
-          time-bonus: 0.450 s / m
     openKind: null
   speedSection:
   - 2
@@ -160,6 +168,9 @@ tasks:
   taskTweak:
     arrivalWeightScaling: null
     leadingWeightScaling: null
+  earlyStart:
+    earliest: 0 s
+    earlyPenalty: 0 s
   penals: []
 - taskName: AATB Epilogue
   zones:
@@ -168,31 +179,36 @@ tasks:
       lat: -32.4916
       lng: 147.91973
       radius: 400.0 m
-      give: 399.8 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 222.000 m
     - zoneName: AFARM
       lat: -33.1903
       lng: 147.9857
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 250.000 m
     - zoneName: ALEC
       lat: -32.897
       lng: 148.2638
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 340.000 m
     - zoneName: AFARM
       lat: -33.1903
       lng: 147.9857
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 250.000 m
     - zoneName: ARDLE
       lat: -34.4125
       lng: 146.8543
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 198.000 m
     raceKind:
       prolog:
@@ -208,13 +224,11 @@ tasks:
           - 147.98570000 deg
           radius: 400.0 m
       race-ess:
-        cut-cylinder:
-          altitude: 340.000 m
+        cylinder:
           center:
           - -32.89700000 deg
           - 148.26380000 deg
           radius: 400.0 m
-          time-bonus: 0.450 s / m
       epilog:
       - cylinder:
           center:
@@ -240,6 +254,9 @@ tasks:
   taskTweak:
     arrivalWeightScaling: null
     leadingWeightScaling: null
+  earlyStart:
+    earliest: 0 s
+    earlyPenalty: 0 s
   penals: []
 - taskName: CESS ESS is not Goal
   zones:
@@ -248,25 +265,29 @@ tasks:
       lat: -32.4916
       lng: 147.91973
       radius: 400.0 m
-      give: 399.8 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 222.000 m
     - zoneName: AFARM
       lat: -33.1903
       lng: 147.9857
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 250.000 m
     - zoneName: ALEC
       lat: -32.897
       lng: 148.2638
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 340.000 m
     - zoneName: ARDLE
       lat: -34.4125
       lng: 146.8543
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 198.000 m
     raceKind:
       prolog:
@@ -282,12 +303,10 @@ tasks:
           - 147.98570000 deg
           radius: 400.0 m
       race-ess:
-        cut-cone:
-          altitude: 340.000 m
+        cylinder:
           center:
           - -32.89700000 deg
           - 148.26380000 deg
-          incline: 15.945 deg
           radius: 400.0 m
       epilog: []
       goal:
@@ -309,6 +328,9 @@ tasks:
   taskTweak:
     arrivalWeightScaling: null
     leadingWeightScaling: null
+  earlyStart:
+    earliest: 0 s
+    earlyPenalty: 0 s
   penals: []
 - taskName: CESS ESS is Goal
   zones:
@@ -317,25 +339,29 @@ tasks:
       lat: -32.4916
       lng: 147.91973
       radius: 400.0 m
-      give: 399.8 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 222.000 m
     - zoneName: AFARM
       lat: -33.1903
       lng: 147.9857
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 250.000 m
     - zoneName: ALEC
       lat: -32.897
       lng: 148.2638
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 340.000 m
     - zoneName: ARDLE
       lat: -34.4125
       lng: 146.8543
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 198.000 m
     raceKind:
       prolog:
@@ -356,12 +382,10 @@ tasks:
           - 148.26380000 deg
           radius: 400.0 m
       race-ess-is-goal:
-        cut-semi-cone:
-          altitude: 198.000 m
+        semicircle:
           center:
           - -34.41250000 deg
           - 146.85430000 deg
-          incline: 15.945 deg
           radius: 400.0 m
     openKind: null
   speedSection:
@@ -376,6 +400,9 @@ tasks:
   taskTweak:
     arrivalWeightScaling: null
     leadingWeightScaling: null
+  earlyStart:
+    earliest: 0 s
+    earlyPenalty: 0 s
   penals: []
 - taskName: CESS Epilogue
   zones:
@@ -384,31 +411,36 @@ tasks:
       lat: -32.4916
       lng: 147.91973
       radius: 400.0 m
-      give: 399.8 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 222.000 m
     - zoneName: AFARM
       lat: -33.1903
       lng: 147.9857
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 250.000 m
     - zoneName: ALEC
       lat: -32.897
       lng: 148.2638
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 340.000 m
     - zoneName: AFARM
       lat: -33.1903
       lng: 147.9857
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 250.000 m
     - zoneName: ARDLE
       lat: -34.4125
       lng: 146.8543
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 198.000 m
     raceKind:
       prolog:
@@ -424,12 +456,10 @@ tasks:
           - 147.98570000 deg
           radius: 400.0 m
       race-ess:
-        cut-cone:
-          altitude: 340.000 m
+        cylinder:
           center:
           - -32.89700000 deg
           - 148.26380000 deg
-          incline: 15.945 deg
           radius: 400.0 m
       epilog:
       - cylinder:
@@ -456,6 +486,9 @@ tasks:
   taskTweak:
     arrivalWeightScaling: null
     leadingWeightScaling: null
+  earlyStart:
+    earliest: 0 s
+    earlyPenalty: 0 s
   penals: []
 - taskName: No decelerator, ESS is not Goal
   zones:
@@ -464,25 +497,29 @@ tasks:
       lat: -32.4916
       lng: 147.91973
       radius: 400.0 m
-      give: 399.8 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 222.000 m
     - zoneName: AFARM
       lat: -33.1903
       lng: 147.9857
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 250.000 m
     - zoneName: ALEC
       lat: -32.897
       lng: 148.2638
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 340.000 m
     - zoneName: ARDLE
       lat: -34.4125
       lng: 146.8543
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 198.000 m
     raceKind:
       prolog:
@@ -523,6 +560,9 @@ tasks:
   taskTweak:
     arrivalWeightScaling: null
     leadingWeightScaling: null
+  earlyStart:
+    earliest: 0 s
+    earlyPenalty: 0 s
   penals: []
 - taskName: No decelerator, ESS is Goal
   zones:
@@ -531,25 +571,29 @@ tasks:
       lat: -32.4916
       lng: 147.91973
       radius: 400.0 m
-      give: 399.8 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 222.000 m
     - zoneName: AFARM
       lat: -33.1903
       lng: 147.9857
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 250.000 m
     - zoneName: ALEC
       lat: -32.897
       lng: 148.2638
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 340.000 m
     - zoneName: ARDLE
       lat: -34.4125
       lng: 146.8543
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 198.000 m
     raceKind:
       prolog:
@@ -570,7 +614,7 @@ tasks:
           - 148.26380000 deg
           radius: 400.0 m
       race-ess-is-goal:
-        circle:
+        semicircle:
           center:
           - -34.41250000 deg
           - 146.85430000 deg
@@ -588,6 +632,9 @@ tasks:
   taskTweak:
     arrivalWeightScaling: null
     leadingWeightScaling: null
+  earlyStart:
+    earliest: 0 s
+    earlyPenalty: 0 s
   penals: []
 - taskName: No decelerator, Epilogue
   zones:
@@ -596,31 +643,36 @@ tasks:
       lat: -32.4916
       lng: 147.91973
       radius: 400.0 m
-      give: 399.8 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 222.000 m
     - zoneName: AFARM
       lat: -33.1903
       lng: 147.9857
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 250.000 m
     - zoneName: ALEC
       lat: -32.897
       lng: 148.2638
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 340.000 m
     - zoneName: AFARM
       lat: -33.1903
       lng: 147.9857
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 250.000 m
     - zoneName: ARDLE
       lat: -34.4125
       lng: 146.8543
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 198.000 m
     raceKind:
       prolog:
@@ -666,6 +718,9 @@ tasks:
   taskTweak:
     arrivalWeightScaling: null
     leadingWeightScaling: null
+  earlyStart:
+    earliest: 0 s
+    earlyPenalty: 0 s
   penals: []
 - taskName: AATB, Circle ESS is not Goal
   zones:
@@ -674,25 +729,29 @@ tasks:
       lat: -32.4916
       lng: 147.91973
       radius: 400.0 m
-      give: 399.8 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 222.000 m
     - zoneName: AFARM
       lat: -33.1903
       lng: 147.9857
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 250.000 m
     - zoneName: ALEC
       lat: -32.897
       lng: 148.2638
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 340.000 m
     - zoneName: ARDLE
       lat: -34.4125
       lng: 146.8543
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 198.000 m
     raceKind:
       prolog:
@@ -708,13 +767,11 @@ tasks:
           - 147.98570000 deg
           radius: 400.0 m
       race-ess:
-        cut-cylinder:
-          altitude: 340.000 m
+        cylinder:
           center:
           - -32.89700000 deg
           - 148.26380000 deg
           radius: 400.0 m
-          time-bonus: 0.450 s / m
       epilog: []
       goal:
         circle:
@@ -735,6 +792,9 @@ tasks:
   taskTweak:
     arrivalWeightScaling: null
     leadingWeightScaling: null
+  earlyStart:
+    earliest: 0 s
+    earlyPenalty: 0 s
   penals: []
 - taskName: AATB, Circle ESS is Goal
   zones:
@@ -743,25 +803,29 @@ tasks:
       lat: -32.4916
       lng: 147.91973
       radius: 400.0 m
-      give: 399.8 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 222.000 m
     - zoneName: AFARM
       lat: -33.1903
       lng: 147.9857
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 250.000 m
     - zoneName: ALEC
       lat: -32.897
       lng: 148.2638
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 340.000 m
     - zoneName: ARDLE
       lat: -34.4125
       lng: 146.8543
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 198.000 m
     raceKind:
       prolog:
@@ -782,13 +846,11 @@ tasks:
           - 148.26380000 deg
           radius: 400.0 m
       race-ess-is-goal:
-        cut-cylinder:
-          altitude: 198.000 m
+        circle:
           center:
           - -34.41250000 deg
           - 146.85430000 deg
           radius: 400.0 m
-          time-bonus: 0.450 s / m
     openKind: null
   speedSection:
   - 2
@@ -802,6 +864,9 @@ tasks:
   taskTweak:
     arrivalWeightScaling: null
     leadingWeightScaling: null
+  earlyStart:
+    earliest: 0 s
+    earlyPenalty: 0 s
   penals: []
 - taskName: AATB, Circle Goal with Epilogue
   zones:
@@ -810,31 +875,36 @@ tasks:
       lat: -32.4916
       lng: 147.91973
       radius: 400.0 m
-      give: 399.8 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 222.000 m
     - zoneName: AFARM
       lat: -33.1903
       lng: 147.9857
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 250.000 m
     - zoneName: ALEC
       lat: -32.897
       lng: 148.2638
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 340.000 m
     - zoneName: AFARM
       lat: -33.1903
       lng: 147.9857
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 250.000 m
     - zoneName: ARDLE
       lat: -34.4125
       lng: 146.8543
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 198.000 m
     raceKind:
       prolog:
@@ -850,13 +920,11 @@ tasks:
           - 147.98570000 deg
           radius: 400.0 m
       race-ess:
-        cut-cylinder:
-          altitude: 340.000 m
+        cylinder:
           center:
           - -32.89700000 deg
           - 148.26380000 deg
           radius: 400.0 m
-          time-bonus: 0.450 s / m
       epilog:
       - cylinder:
           center:
@@ -882,6 +950,9 @@ tasks:
   taskTweak:
     arrivalWeightScaling: null
     leadingWeightScaling: null
+  earlyStart:
+    earliest: 0 s
+    earlyPenalty: 0 s
   penals: []
 - taskName: CESS, Circle ESS is not Goal
   zones:
@@ -890,25 +961,29 @@ tasks:
       lat: -32.4916
       lng: 147.91973
       radius: 400.0 m
-      give: 399.8 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 222.000 m
     - zoneName: AFARM
       lat: -33.1903
       lng: 147.9857
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 250.000 m
     - zoneName: ALEC
       lat: -32.897
       lng: 148.2638
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 340.000 m
     - zoneName: ARDLE
       lat: -34.4125
       lng: 146.8543
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 198.000 m
     raceKind:
       prolog:
@@ -924,12 +999,10 @@ tasks:
           - 147.98570000 deg
           radius: 400.0 m
       race-ess:
-        cut-cone:
-          altitude: 340.000 m
+        cylinder:
           center:
           - -32.89700000 deg
           - 148.26380000 deg
-          incline: 15.945 deg
           radius: 400.0 m
       epilog: []
       goal:
@@ -951,6 +1024,9 @@ tasks:
   taskTweak:
     arrivalWeightScaling: null
     leadingWeightScaling: null
+  earlyStart:
+    earliest: 0 s
+    earlyPenalty: 0 s
   penals: []
 - taskName: CESS, Circle ESS is Goal
   zones:
@@ -959,25 +1035,29 @@ tasks:
       lat: -32.4916
       lng: 147.91973
       radius: 400.0 m
-      give: 399.8 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 222.000 m
     - zoneName: AFARM
       lat: -33.1903
       lng: 147.9857
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 250.000 m
     - zoneName: ALEC
       lat: -32.897
       lng: 148.2638
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 340.000 m
     - zoneName: ARDLE
       lat: -34.4125
       lng: 146.8543
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 198.000 m
     raceKind:
       prolog:
@@ -998,12 +1078,10 @@ tasks:
           - 148.26380000 deg
           radius: 400.0 m
       race-ess-is-goal:
-        cut-cone:
-          altitude: 198.000 m
+        circle:
           center:
           - -34.41250000 deg
           - 146.85430000 deg
-          incline: 15.945 deg
           radius: 400.0 m
     openKind: null
   speedSection:
@@ -1018,6 +1096,9 @@ tasks:
   taskTweak:
     arrivalWeightScaling: null
     leadingWeightScaling: null
+  earlyStart:
+    earliest: 0 s
+    earlyPenalty: 0 s
   penals: []
 - taskName: CESS, Circle Goal with Epilogue
   zones:
@@ -1026,31 +1107,36 @@ tasks:
       lat: -32.4916
       lng: 147.91973
       radius: 400.0 m
-      give: 399.8 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 222.000 m
     - zoneName: AFARM
       lat: -33.1903
       lng: 147.9857
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 250.000 m
     - zoneName: ALEC
       lat: -32.897
       lng: 148.2638
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 340.000 m
     - zoneName: AFARM
       lat: -33.1903
       lng: 147.9857
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 250.000 m
     - zoneName: ARDLE
       lat: -34.4125
       lng: 146.8543
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 198.000 m
     raceKind:
       prolog:
@@ -1066,12 +1152,10 @@ tasks:
           - 147.98570000 deg
           radius: 400.0 m
       race-ess:
-        cut-cone:
-          altitude: 340.000 m
+        cylinder:
           center:
           - -32.89700000 deg
           - 148.26380000 deg
-          incline: 15.945 deg
           radius: 400.0 m
       epilog:
       - cylinder:
@@ -1098,6 +1182,9 @@ tasks:
   taskTweak:
     arrivalWeightScaling: null
     leadingWeightScaling: null
+  earlyStart:
+    earliest: 0 s
+    earlyPenalty: 0 s
   penals: []
 - taskName: No Decelerator, ESS is not Goal
   zones:
@@ -1106,25 +1193,29 @@ tasks:
       lat: -32.4916
       lng: 147.91973
       radius: 400.0 m
-      give: 399.8 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 222.000 m
     - zoneName: AFARM
       lat: -33.1903
       lng: 147.9857
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 250.000 m
     - zoneName: ALEC
       lat: -32.897
       lng: 148.2638
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 340.000 m
     - zoneName: ARDLE
       lat: -34.4125
       lng: 146.8543
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 198.000 m
     raceKind:
       prolog:
@@ -1165,6 +1256,9 @@ tasks:
   taskTweak:
     arrivalWeightScaling: null
     leadingWeightScaling: null
+  earlyStart:
+    earliest: 0 s
+    earlyPenalty: 0 s
   penals: []
 - taskName: No decelerator, ESS is Goal
   zones:
@@ -1173,25 +1267,29 @@ tasks:
       lat: -32.4916
       lng: 147.91973
       radius: 400.0 m
-      give: 399.8 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 222.000 m
     - zoneName: AFARM
       lat: -33.1903
       lng: 147.9857
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 250.000 m
     - zoneName: ALEC
       lat: -32.897
       lng: 148.2638
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 340.000 m
     - zoneName: ARDLE
       lat: -34.4125
       lng: 146.8543
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 198.000 m
     raceKind:
       prolog:
@@ -1230,6 +1328,9 @@ tasks:
   taskTweak:
     arrivalWeightScaling: null
     leadingWeightScaling: null
+  earlyStart:
+    earliest: 0 s
+    earlyPenalty: 0 s
   penals: []
 - taskName: No decelerator, Epilogue
   zones:
@@ -1238,31 +1339,36 @@ tasks:
       lat: -32.4916
       lng: 147.91973
       radius: 400.0 m
-      give: 399.8 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 222.000 m
     - zoneName: AFARM
       lat: -33.1903
       lng: 147.9857
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 250.000 m
     - zoneName: ALEC
       lat: -32.897
       lng: 148.2638
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 340.000 m
     - zoneName: AFARM
       lat: -33.1903
       lng: 147.9857
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 250.000 m
     - zoneName: ARDLE
       lat: -34.4125
       lng: 146.8543
       radius: 400.0 m
-      give: 400.2 m
+      giveIn: 395.0 m
+      giveOut: 405.0 m
       alt: 198.000 m
     raceKind:
       prolog:
@@ -1308,6 +1414,9 @@ tasks:
   taskTweak:
     arrivalWeightScaling: null
     leadingWeightScaling: null
+  earlyStart:
+    earliest: 0 s
+    earlyPenalty: 0 s
   penals: []
 taskFolders:
 - - ''
