@@ -1,6 +1,204 @@
-minDistance: 7.000 km
-bestDistance: []
-chunking: []
-landout: []
-lookahead: []
-difficulty: []
+minDistance: 0.000 km
+bestDistance:
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+- null
+chunking:
+- startChunk:
+  - 0
+  - 0.0 km
+  endChunk:
+  - 82
+  - 8.2 km
+  sumOf: 0
+- startChunk:
+  - 0
+  - 0.0 km
+  endChunk:
+  - 82
+  - 8.2 km
+  sumOf: 0
+- startChunk:
+  - 0
+  - 0.0 km
+  endChunk:
+  - 82
+  - 8.2 km
+  sumOf: 0
+- startChunk:
+  - 0
+  - 0.0 km
+  endChunk:
+  - 82
+  - 8.2 km
+  sumOf: 0
+- startChunk:
+  - 0
+  - 0.0 km
+  endChunk:
+  - 82
+  - 8.2 km
+  sumOf: 0
+- startChunk:
+  - 0
+  - 0.0 km
+  endChunk:
+  - 82
+  - 8.2 km
+  sumOf: 0
+- startChunk:
+  - 0
+  - 0.0 km
+  endChunk:
+  - 82
+  - 8.2 km
+  sumOf: 0
+- startChunk:
+  - 0
+  - 0.0 km
+  endChunk:
+  - 82
+  - 8.2 km
+  sumOf: 0
+- startChunk:
+  - 0
+  - 0.0 km
+  endChunk:
+  - 82
+  - 8.2 km
+  sumOf: 0
+- startChunk:
+  - 0
+  - 0.0 km
+  endChunk:
+  - 82
+  - 8.2 km
+  sumOf: 0
+- startChunk:
+  - 0
+  - 0.0 km
+  endChunk:
+  - 82
+  - 8.2 km
+  sumOf: 0
+- startChunk:
+  - 0
+  - 0.0 km
+  endChunk:
+  - 82
+  - 8.2 km
+  sumOf: 0
+- startChunk:
+  - 0
+  - 0.0 km
+  endChunk:
+  - 82
+  - 8.2 km
+  sumOf: 0
+- startChunk:
+  - 0
+  - 0.0 km
+  endChunk:
+  - 82
+  - 8.2 km
+  sumOf: 0
+- startChunk:
+  - 0
+  - 0.0 km
+  endChunk:
+  - 82
+  - 8.2 km
+  sumOf: 0
+- startChunk:
+  - 0
+  - 0.0 km
+  endChunk:
+  - 82
+  - 8.2 km
+  sumOf: 0
+- startChunk:
+  - 0
+  - 0.0 km
+  endChunk:
+  - 82
+  - 8.2 km
+  sumOf: 0
+- startChunk:
+  - 0
+  - 0.0 km
+  endChunk:
+  - 82
+  - 8.2 km
+  sumOf: 0
+landout:
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+lookahead:
+- 30
+- 30
+- 30
+- 30
+- 30
+- 30
+- 30
+- 30
+- 30
+- 30
+- 30
+- 30
+- 30
+- 30
+- 30
+- 30
+- 30
+- 30
+difficulty:
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
