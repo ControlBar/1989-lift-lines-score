@@ -23,7 +23,9 @@ nominal:
   free: 7.000 km
   time: 1.500000 h
 compTweak:
-  arrivalWeightScaling: null
+  arrivalRank: false
+  arrivalTime: false
+  leadingAreaDistanceSquared: true
   leadingWeightScaling: null
 tasks:
 - taskName: AATB ESS is not Goal
@@ -94,11 +96,15 @@ tasks:
   - 2018-07-13T12:00:00Z
   stopped: null
   taskTweak:
-    arrivalWeightScaling: null
+    arrivalRank: false
+    arrivalTime: false
+    leadingAreaDistanceSquared: true
     leadingWeightScaling: null
   earlyStart:
     earliest: 0 s
     earlyPenalty: 0 s
+    tooEarlyReset: 0
+  penalsAuto: []
   penals: []
 - taskName: AATB ESS is Goal
   zones:
@@ -166,11 +172,15 @@ tasks:
   - 2018-07-13T12:00:00Z
   stopped: null
   taskTweak:
-    arrivalWeightScaling: null
+    arrivalRank: false
+    arrivalTime: false
+    leadingAreaDistanceSquared: true
     leadingWeightScaling: null
   earlyStart:
     earliest: 0 s
     earlyPenalty: 0 s
+    tooEarlyReset: 0
+  penalsAuto: []
   penals: []
 - taskName: AATB Epilogue
   zones:
@@ -252,11 +262,15 @@ tasks:
   - 2018-07-13T12:00:00Z
   stopped: null
   taskTweak:
-    arrivalWeightScaling: null
+    arrivalRank: false
+    arrivalTime: false
+    leadingAreaDistanceSquared: true
     leadingWeightScaling: null
   earlyStart:
     earliest: 0 s
     earlyPenalty: 0 s
+    tooEarlyReset: 0
+  penalsAuto: []
   penals: []
 - taskName: CESS ESS is not Goal
   zones:
@@ -326,11 +340,15 @@ tasks:
   - 2018-07-13T12:00:00Z
   stopped: null
   taskTweak:
-    arrivalWeightScaling: null
+    arrivalRank: false
+    arrivalTime: false
+    leadingAreaDistanceSquared: true
     leadingWeightScaling: null
   earlyStart:
     earliest: 0 s
     earlyPenalty: 0 s
+    tooEarlyReset: 0
+  penalsAuto: []
   penals: []
 - taskName: CESS ESS is Goal
   zones:
@@ -398,11 +416,15 @@ tasks:
   - 2018-07-13T12:00:00Z
   stopped: null
   taskTweak:
-    arrivalWeightScaling: null
+    arrivalRank: false
+    arrivalTime: false
+    leadingAreaDistanceSquared: true
     leadingWeightScaling: null
   earlyStart:
     earliest: 0 s
     earlyPenalty: 0 s
+    tooEarlyReset: 0
+  penalsAuto: []
   penals: []
 - taskName: CESS Epilogue
   zones:
@@ -484,11 +506,15 @@ tasks:
   - 2018-07-13T12:00:00Z
   stopped: null
   taskTweak:
-    arrivalWeightScaling: null
+    arrivalRank: false
+    arrivalTime: false
+    leadingAreaDistanceSquared: true
     leadingWeightScaling: null
   earlyStart:
     earliest: 0 s
     earlyPenalty: 0 s
+    tooEarlyReset: 0
+  penalsAuto: []
   penals: []
 - taskName: No decelerator, ESS is not Goal
   zones:
@@ -558,11 +584,15 @@ tasks:
   - 2018-07-16T12:00:00Z
   stopped: null
   taskTweak:
-    arrivalWeightScaling: null
+    arrivalRank: false
+    arrivalTime: false
+    leadingAreaDistanceSquared: true
     leadingWeightScaling: null
   earlyStart:
     earliest: 0 s
     earlyPenalty: 0 s
+    tooEarlyReset: 0
+  penalsAuto: []
   penals: []
 - taskName: No decelerator, ESS is Goal
   zones:
@@ -630,11 +660,15 @@ tasks:
   - 2018-07-16T12:00:00Z
   stopped: null
   taskTweak:
-    arrivalWeightScaling: null
+    arrivalRank: false
+    arrivalTime: false
+    leadingAreaDistanceSquared: true
     leadingWeightScaling: null
   earlyStart:
     earliest: 0 s
     earlyPenalty: 0 s
+    tooEarlyReset: 0
+  penalsAuto: []
   penals: []
 - taskName: No decelerator, Epilogue
   zones:
@@ -716,11 +750,15 @@ tasks:
   - 2018-07-16T12:00:00Z
   stopped: null
   taskTweak:
-    arrivalWeightScaling: null
+    arrivalRank: false
+    arrivalTime: false
+    leadingAreaDistanceSquared: true
     leadingWeightScaling: null
   earlyStart:
     earliest: 0 s
     earlyPenalty: 0 s
+    tooEarlyReset: 0
+  penalsAuto: []
   penals: []
 - taskName: AATB, Circle ESS is not Goal
   zones:
@@ -790,11 +828,15 @@ tasks:
   - 2018-07-13T12:00:00Z
   stopped: null
   taskTweak:
-    arrivalWeightScaling: null
+    arrivalRank: false
+    arrivalTime: false
+    leadingAreaDistanceSquared: true
     leadingWeightScaling: null
   earlyStart:
     earliest: 0 s
     earlyPenalty: 0 s
+    tooEarlyReset: 0
+  penalsAuto: []
   penals: []
 - taskName: AATB, Circle ESS is Goal
   zones:
@@ -862,11 +904,15 @@ tasks:
   - 2018-07-13T12:00:00Z
   stopped: null
   taskTweak:
-    arrivalWeightScaling: null
+    arrivalRank: false
+    arrivalTime: false
+    leadingAreaDistanceSquared: true
     leadingWeightScaling: null
   earlyStart:
     earliest: 0 s
     earlyPenalty: 0 s
+    tooEarlyReset: 0
+  penalsAuto: []
   penals: []
 - taskName: AATB, Circle Goal with Epilogue
   zones:
@@ -948,11 +994,15 @@ tasks:
   - 2018-07-13T12:00:00Z
   stopped: null
   taskTweak:
-    arrivalWeightScaling: null
+    arrivalRank: false
+    arrivalTime: false
+    leadingAreaDistanceSquared: true
     leadingWeightScaling: null
   earlyStart:
     earliest: 0 s
     earlyPenalty: 0 s
+    tooEarlyReset: 0
+  penalsAuto: []
   penals: []
 - taskName: CESS, Circle ESS is not Goal
   zones:
@@ -1022,11 +1072,15 @@ tasks:
   - 2018-07-13T12:00:00Z
   stopped: null
   taskTweak:
-    arrivalWeightScaling: null
+    arrivalRank: false
+    arrivalTime: false
+    leadingAreaDistanceSquared: true
     leadingWeightScaling: null
   earlyStart:
     earliest: 0 s
     earlyPenalty: 0 s
+    tooEarlyReset: 0
+  penalsAuto: []
   penals: []
 - taskName: CESS, Circle ESS is Goal
   zones:
@@ -1094,11 +1148,15 @@ tasks:
   - 2018-07-13T12:00:00Z
   stopped: null
   taskTweak:
-    arrivalWeightScaling: null
+    arrivalRank: false
+    arrivalTime: false
+    leadingAreaDistanceSquared: true
     leadingWeightScaling: null
   earlyStart:
     earliest: 0 s
     earlyPenalty: 0 s
+    tooEarlyReset: 0
+  penalsAuto: []
   penals: []
 - taskName: CESS, Circle Goal with Epilogue
   zones:
@@ -1180,11 +1238,15 @@ tasks:
   - 2018-07-13T12:00:00Z
   stopped: null
   taskTweak:
-    arrivalWeightScaling: null
+    arrivalRank: false
+    arrivalTime: false
+    leadingAreaDistanceSquared: true
     leadingWeightScaling: null
   earlyStart:
     earliest: 0 s
     earlyPenalty: 0 s
+    tooEarlyReset: 0
+  penalsAuto: []
   penals: []
 - taskName: No Decelerator, ESS is not Goal
   zones:
@@ -1254,11 +1316,15 @@ tasks:
   - 2018-07-13T12:00:00Z
   stopped: null
   taskTweak:
-    arrivalWeightScaling: null
+    arrivalRank: false
+    arrivalTime: false
+    leadingAreaDistanceSquared: true
     leadingWeightScaling: null
   earlyStart:
     earliest: 0 s
     earlyPenalty: 0 s
+    tooEarlyReset: 0
+  penalsAuto: []
   penals: []
 - taskName: No decelerator, ESS is Goal
   zones:
@@ -1326,11 +1392,15 @@ tasks:
   - 2018-07-13T12:00:00Z
   stopped: null
   taskTweak:
-    arrivalWeightScaling: null
+    arrivalRank: false
+    arrivalTime: false
+    leadingAreaDistanceSquared: true
     leadingWeightScaling: null
   earlyStart:
     earliest: 0 s
     earlyPenalty: 0 s
+    tooEarlyReset: 0
+  penalsAuto: []
   penals: []
 - taskName: No decelerator, Epilogue
   zones:
@@ -1412,11 +1482,15 @@ tasks:
   - 2018-07-13T12:00:00Z
   stopped: null
   taskTweak:
-    arrivalWeightScaling: null
+    arrivalRank: false
+    arrivalTime: false
+    leadingAreaDistanceSquared: true
     leadingWeightScaling: null
   earlyStart:
     earliest: 0 s
     earlyPenalty: 0 s
+    tooEarlyReset: 0
+  penalsAuto: []
   penals: []
 taskFolders:
 - - ''

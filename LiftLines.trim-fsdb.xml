@@ -1,10 +1,10 @@
 <Fs version="3.4">
   <FsCompetition id="0" name="Lift Lines 1989" location="Kössen Austria" from="1989-09-01" to="1989-09-12" utc_offset="0" discipline="pg">
-    <FsScoreFormula id="GAP2016" min_dist="7" nom_dist="70" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" jump_the_gun_factor="0" jump_the_gun_max="0" use_arrival_position_points="0" use_leading_points="1" score_back_time="5" double_leading_weight="1"/>
+    <FsScoreFormula id="GAP2016" min_dist="7" nom_dist="70" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" jump_the_gun_factor="0" jump_the_gun_max="0" use_arrival_position_points="0" use_arrival_time_points="0" use_distance_squared_for_LC="1" use_leading_points="1" score_back_time="5" double_leading_weight="1"/>
     <FsParticipants/>
     <FsTasks>
       <FsTask id="1" name="AATB ESS is not Goal" tracklog_folder="">
-        <FsScoreFormula id="GAP2016" min_dist="7" nom_dist="70" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" jump_the_gun_factor="0" jump_the_gun_max="0" use_arrival_position_points="0" use_leading_points="1" score_back_time="5" double_leading_weight="1"/>
+        <FsScoreFormula id="GAP2016" min_dist="7" nom_dist="70" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" jump_the_gun_factor="0" jump_the_gun_max="0" use_arrival_position_points="0" use_arrival_time_points="0" use_distance_squared_for_LC="1" use_leading_points="1" score_back_time="5" double_leading_weight="1"/>
         <FsTaskDefinition ss="2" es="3" goal="LINE" groundstart="0">
           <FsTurnpoint id="4WAYS" lat="-32.4916" lon="147.91973" altitude="222" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
           <FsTurnpoint id="AFARM" lat="-33.1903" lon="147.9857" altitude="250" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
@@ -28,7 +28,7 @@
         </FsTaskShortestPath>
       </FsTask>
       <FsTask id="2" name="AATB ESS is Goal" tracklog_folder="">
-        <FsScoreFormula id="GAP2016" min_dist="7" nom_dist="70" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" jump_the_gun_factor="0" jump_the_gun_max="0" use_arrival_position_points="0" use_leading_points="1" score_back_time="5" double_leading_weight="1"/>
+        <FsScoreFormula id="GAP2016" min_dist="7" nom_dist="70" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" jump_the_gun_factor="0" jump_the_gun_max="0" use_arrival_position_points="0" use_arrival_time_points="0" use_distance_squared_for_LC="1" use_leading_points="1" score_back_time="5" double_leading_weight="1"/>
         <FsTaskDefinition ss="2" es="4" goal="LINE" groundstart="0">
           <FsTurnpoint id="4WAYS" lat="-32.4916" lon="147.91973" altitude="222" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
           <FsTurnpoint id="AFARM" lat="-33.1903" lon="147.9857" altitude="250" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
@@ -52,7 +52,7 @@
         </FsTaskShortestPath>
       </FsTask>
       <FsTask id="3" name="AATB Epilogue" tracklog_folder="">
-        <FsScoreFormula id="GAP2016" min_dist="7" nom_dist="70" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" jump_the_gun_factor="0" jump_the_gun_max="0" use_arrival_position_points="0" use_leading_points="1" score_back_time="5" double_leading_weight="1"/>
+        <FsScoreFormula id="GAP2016" min_dist="7" nom_dist="70" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" jump_the_gun_factor="0" jump_the_gun_max="0" use_arrival_position_points="0" use_arrival_time_points="0" use_distance_squared_for_LC="1" use_leading_points="1" score_back_time="5" double_leading_weight="1"/>
         <FsTaskDefinition ss="2" es="3" goal="LINE" groundstart="0">
           <FsTurnpoint id="4WAYS" lat="-32.4916" lon="147.91973" altitude="222" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
           <FsTurnpoint id="AFARM" lat="-33.1903" lon="147.9857" altitude="250" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
@@ -79,7 +79,7 @@
         </FsTaskShortestPath>
       </FsTask>
       <FsTask id="4" name="CESS ESS is not Goal" tracklog_folder="">
-        <FsScoreFormula id="GAP2016" min_dist="7" nom_dist="70" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" jump_the_gun_factor="0" jump_the_gun_max="0" use_arrival_position_points="0" use_leading_points="1" score_back_time="5" double_leading_weight="1"/>
+        <FsScoreFormula id="GAP2016" min_dist="7" nom_dist="70" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" jump_the_gun_factor="0" jump_the_gun_max="0" use_arrival_position_points="0" use_arrival_time_points="0" use_distance_squared_for_LC="1" use_leading_points="1" score_back_time="5" double_leading_weight="1"/>
         <FsTaskDefinition ss="2" es="3" goal="LINE" groundstart="0">
           <FsTurnpoint id="4WAYS" lat="-32.4916" lon="147.91973" altitude="222" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
           <FsTurnpoint id="AFARM" lat="-33.1903" lon="147.9857" altitude="250" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
@@ -103,7 +103,7 @@
         </FsTaskShortestPath>
       </FsTask>
       <FsTask id="5" name="CESS ESS is Goal" tracklog_folder="">
-        <FsScoreFormula id="GAP2016" min_dist="7" nom_dist="70" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" jump_the_gun_factor="0" jump_the_gun_max="0" use_arrival_position_points="0" use_leading_points="1" score_back_time="5" double_leading_weight="1"/>
+        <FsScoreFormula id="GAP2016" min_dist="7" nom_dist="70" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" jump_the_gun_factor="0" jump_the_gun_max="0" use_arrival_position_points="0" use_arrival_time_points="0" use_distance_squared_for_LC="1" use_leading_points="1" score_back_time="5" double_leading_weight="1"/>
         <FsTaskDefinition ss="2" es="4" goal="LINE" groundstart="0">
           <FsTurnpoint id="4WAYS" lat="-32.4916" lon="147.91973" altitude="222" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
           <FsTurnpoint id="AFARM" lat="-33.1903" lon="147.9857" altitude="250" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
@@ -127,7 +127,7 @@
         </FsTaskShortestPath>
       </FsTask>
       <FsTask id="6" name="CESS Epilogue" tracklog_folder="">
-        <FsScoreFormula id="GAP2016" min_dist="7" nom_dist="70" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" jump_the_gun_factor="0" jump_the_gun_max="0" use_arrival_position_points="0" use_leading_points="1" score_back_time="5" double_leading_weight="1"/>
+        <FsScoreFormula id="GAP2016" min_dist="7" nom_dist="70" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" jump_the_gun_factor="0" jump_the_gun_max="0" use_arrival_position_points="0" use_arrival_time_points="0" use_distance_squared_for_LC="1" use_leading_points="1" score_back_time="5" double_leading_weight="1"/>
         <FsTaskDefinition ss="2" es="3" goal="LINE" groundstart="0">
           <FsTurnpoint id="4WAYS" lat="-32.4916" lon="147.91973" altitude="222" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
           <FsTurnpoint id="AFARM" lat="-33.1903" lon="147.9857" altitude="250" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
@@ -154,7 +154,7 @@
         </FsTaskShortestPath>
       </FsTask>
       <FsTask id="7" name="No decelerator, ESS is not Goal" tracklog_folder="">
-        <FsScoreFormula id="GAP2016" min_dist="7" nom_dist="70" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" jump_the_gun_factor="0" jump_the_gun_max="0" use_arrival_position_points="0" use_leading_points="1" score_back_time="5" double_leading_weight="1"/>
+        <FsScoreFormula id="GAP2016" min_dist="7" nom_dist="70" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" jump_the_gun_factor="0" jump_the_gun_max="0" use_arrival_position_points="0" use_arrival_time_points="0" use_distance_squared_for_LC="1" use_leading_points="1" score_back_time="5" double_leading_weight="1"/>
         <FsTaskDefinition ss="2" es="3" goal="LINE" groundstart="0">
           <FsTurnpoint id="4WAYS" lat="-32.4916" lon="147.91973" altitude="222" radius="400" open="2018-07-16T12:00:00Z" close="2018-07-16T20:00:00Z"/>
           <FsTurnpoint id="AFARM" lat="-33.1903" lon="147.9857" altitude="250" radius="400" open="2018-07-16T12:00:00Z" close="2018-07-16T20:00:00Z"/>
@@ -178,7 +178,7 @@
         </FsTaskShortestPath>
       </FsTask>
       <FsTask id="8" name="No decelerator, ESS is Goal" tracklog_folder="">
-        <FsScoreFormula id="GAP2016" min_dist="7" nom_dist="70" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" jump_the_gun_factor="0" jump_the_gun_max="0" use_arrival_position_points="0" use_leading_points="1" score_back_time="5" double_leading_weight="1"/>
+        <FsScoreFormula id="GAP2016" min_dist="7" nom_dist="70" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" jump_the_gun_factor="0" jump_the_gun_max="0" use_arrival_position_points="0" use_arrival_time_points="0" use_distance_squared_for_LC="1" use_leading_points="1" score_back_time="5" double_leading_weight="1"/>
         <FsTaskDefinition ss="2" es="4" goal="LINE" groundstart="0">
           <FsTurnpoint id="4WAYS" lat="-32.4916" lon="147.91973" altitude="222" radius="400" open="2018-07-16T12:00:00Z" close="2018-07-16T20:00:00Z"/>
           <FsTurnpoint id="AFARM" lat="-33.1903" lon="147.9857" altitude="250" radius="400" open="2018-07-16T12:00:00Z" close="2018-07-16T20:00:00Z"/>
@@ -202,7 +202,7 @@
         </FsTaskShortestPath>
       </FsTask>
       <FsTask id="9" name="No decelerator, Epilogue" tracklog_folder="">
-        <FsScoreFormula id="GAP2016" min_dist="7" nom_dist="70" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" jump_the_gun_factor="0" jump_the_gun_max="0" use_arrival_position_points="0" use_leading_points="1" score_back_time="5" double_leading_weight="1"/>
+        <FsScoreFormula id="GAP2016" min_dist="7" nom_dist="70" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" jump_the_gun_factor="0" jump_the_gun_max="0" use_arrival_position_points="0" use_arrival_time_points="0" use_distance_squared_for_LC="1" use_leading_points="1" score_back_time="5" double_leading_weight="1"/>
         <FsTaskDefinition ss="2" es="3" goal="LINE" groundstart="0">
           <FsTurnpoint id="4WAYS" lat="-32.4916" lon="147.91973" altitude="222" radius="400" open="2018-07-16T12:00:00Z" close="2018-07-16T20:00:00Z"/>
           <FsTurnpoint id="AFARM" lat="-33.1903" lon="147.9857" altitude="250" radius="400" open="2018-07-16T12:00:00Z" close="2018-07-16T20:00:00Z"/>
@@ -229,7 +229,7 @@
         </FsTaskShortestPath>
       </FsTask>
       <FsTask id="10" name="AATB, Circle ESS is not Goal" tracklog_folder="">
-        <FsScoreFormula id="GAP2016" min_dist="7" nom_dist="70" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" jump_the_gun_factor="0" jump_the_gun_max="0" use_arrival_position_points="0" use_leading_points="1" score_back_time="5" double_leading_weight="1"/>
+        <FsScoreFormula id="GAP2016" min_dist="7" nom_dist="70" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" jump_the_gun_factor="0" jump_the_gun_max="0" use_arrival_position_points="0" use_arrival_time_points="0" use_distance_squared_for_LC="1" use_leading_points="1" score_back_time="5" double_leading_weight="1"/>
         <FsTaskDefinition ss="2" es="3" goal="CIRCLE" groundstart="0">
           <FsTurnpoint id="4WAYS" lat="-32.4916" lon="147.91973" altitude="222" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
           <FsTurnpoint id="AFARM" lat="-33.1903" lon="147.9857" altitude="250" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
@@ -253,7 +253,7 @@
         </FsTaskShortestPath>
       </FsTask>
       <FsTask id="11" name="AATB, Circle ESS is Goal" tracklog_folder="">
-        <FsScoreFormula id="GAP2016" min_dist="7" nom_dist="70" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" jump_the_gun_factor="0" jump_the_gun_max="0" use_arrival_position_points="0" use_leading_points="1" score_back_time="5" double_leading_weight="1"/>
+        <FsScoreFormula id="GAP2016" min_dist="7" nom_dist="70" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" jump_the_gun_factor="0" jump_the_gun_max="0" use_arrival_position_points="0" use_arrival_time_points="0" use_distance_squared_for_LC="1" use_leading_points="1" score_back_time="5" double_leading_weight="1"/>
         <FsTaskDefinition ss="2" es="4" goal="CIRCLE" groundstart="0">
           <FsTurnpoint id="4WAYS" lat="-32.4916" lon="147.91973" altitude="222" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
           <FsTurnpoint id="AFARM" lat="-33.1903" lon="147.9857" altitude="250" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
@@ -277,7 +277,7 @@
         </FsTaskShortestPath>
       </FsTask>
       <FsTask id="12" name="AATB, Circle Goal with Epilogue" tracklog_folder="">
-        <FsScoreFormula id="GAP2016" min_dist="7" nom_dist="70" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" jump_the_gun_factor="0" jump_the_gun_max="0" use_arrival_position_points="0" use_leading_points="1" score_back_time="5" double_leading_weight="1"/>
+        <FsScoreFormula id="GAP2016" min_dist="7" nom_dist="70" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" jump_the_gun_factor="0" jump_the_gun_max="0" use_arrival_position_points="0" use_arrival_time_points="0" use_distance_squared_for_LC="1" use_leading_points="1" score_back_time="5" double_leading_weight="1"/>
         <FsTaskDefinition ss="2" es="3" goal="CIRCLE" groundstart="0">
           <FsTurnpoint id="4WAYS" lat="-32.4916" lon="147.91973" altitude="222" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
           <FsTurnpoint id="AFARM" lat="-33.1903" lon="147.9857" altitude="250" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
@@ -304,7 +304,7 @@
         </FsTaskShortestPath>
       </FsTask>
       <FsTask id="13" name="CESS, Circle ESS is not Goal" tracklog_folder="">
-        <FsScoreFormula id="GAP2016" min_dist="7" nom_dist="70" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" jump_the_gun_factor="0" jump_the_gun_max="0" use_arrival_position_points="0" use_leading_points="1" score_back_time="5" double_leading_weight="1"/>
+        <FsScoreFormula id="GAP2016" min_dist="7" nom_dist="70" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" jump_the_gun_factor="0" jump_the_gun_max="0" use_arrival_position_points="0" use_arrival_time_points="0" use_distance_squared_for_LC="1" use_leading_points="1" score_back_time="5" double_leading_weight="1"/>
         <FsTaskDefinition ss="2" es="3" goal="CIRCLE" groundstart="0">
           <FsTurnpoint id="4WAYS" lat="-32.4916" lon="147.91973" altitude="222" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
           <FsTurnpoint id="AFARM" lat="-33.1903" lon="147.9857" altitude="250" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
@@ -328,7 +328,7 @@
         </FsTaskShortestPath>
       </FsTask>
       <FsTask id="14" name="CESS, Circle ESS is Goal" tracklog_folder="">
-        <FsScoreFormula id="GAP2016" min_dist="7" nom_dist="70" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" jump_the_gun_factor="0" jump_the_gun_max="0" use_arrival_position_points="0" use_leading_points="1" score_back_time="5" double_leading_weight="1"/>
+        <FsScoreFormula id="GAP2016" min_dist="7" nom_dist="70" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" jump_the_gun_factor="0" jump_the_gun_max="0" use_arrival_position_points="0" use_arrival_time_points="0" use_distance_squared_for_LC="1" use_leading_points="1" score_back_time="5" double_leading_weight="1"/>
         <FsTaskDefinition ss="2" es="4" goal="CIRCLE" groundstart="0">
           <FsTurnpoint id="4WAYS" lat="-32.4916" lon="147.91973" altitude="222" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
           <FsTurnpoint id="AFARM" lat="-33.1903" lon="147.9857" altitude="250" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
@@ -352,7 +352,7 @@
         </FsTaskShortestPath>
       </FsTask>
       <FsTask id="15" name="CESS, Circle Goal with Epilogue" tracklog_folder="">
-        <FsScoreFormula id="GAP2016" min_dist="7" nom_dist="70" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" jump_the_gun_factor="0" jump_the_gun_max="0" use_arrival_position_points="0" use_leading_points="1" score_back_time="5" double_leading_weight="1"/>
+        <FsScoreFormula id="GAP2016" min_dist="7" nom_dist="70" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" jump_the_gun_factor="0" jump_the_gun_max="0" use_arrival_position_points="0" use_arrival_time_points="0" use_distance_squared_for_LC="1" use_leading_points="1" score_back_time="5" double_leading_weight="1"/>
         <FsTaskDefinition ss="2" es="3" goal="CIRCLE" groundstart="0">
           <FsTurnpoint id="4WAYS" lat="-32.4916" lon="147.91973" altitude="222" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
           <FsTurnpoint id="AFARM" lat="-33.1903" lon="147.9857" altitude="250" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
@@ -379,7 +379,7 @@
         </FsTaskShortestPath>
       </FsTask>
       <FsTask id="16" name="No Decelerator, ESS is not Goal" tracklog_folder="">
-        <FsScoreFormula id="GAP2016" min_dist="7" nom_dist="70" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" jump_the_gun_factor="0" jump_the_gun_max="0" use_arrival_position_points="0" use_leading_points="1" score_back_time="5" double_leading_weight="1"/>
+        <FsScoreFormula id="GAP2016" min_dist="7" nom_dist="70" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" jump_the_gun_factor="0" jump_the_gun_max="0" use_arrival_position_points="0" use_arrival_time_points="0" use_distance_squared_for_LC="1" use_leading_points="1" score_back_time="5" double_leading_weight="1"/>
         <FsTaskDefinition ss="2" es="3" goal="CIRCLE" groundstart="0">
           <FsTurnpoint id="4WAYS" lat="-32.4916" lon="147.91973" altitude="222" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
           <FsTurnpoint id="AFARM" lat="-33.1903" lon="147.9857" altitude="250" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
@@ -403,7 +403,7 @@
         </FsTaskShortestPath>
       </FsTask>
       <FsTask id="17" name="No decelerator, ESS is Goal" tracklog_folder="">
-        <FsScoreFormula id="GAP2016" min_dist="7" nom_dist="70" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" jump_the_gun_factor="0" jump_the_gun_max="0" use_arrival_position_points="0" use_leading_points="1" score_back_time="5" double_leading_weight="1"/>
+        <FsScoreFormula id="GAP2016" min_dist="7" nom_dist="70" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" jump_the_gun_factor="0" jump_the_gun_max="0" use_arrival_position_points="0" use_arrival_time_points="0" use_distance_squared_for_LC="1" use_leading_points="1" score_back_time="5" double_leading_weight="1"/>
         <FsTaskDefinition ss="2" es="4" goal="CIRCLE" groundstart="0">
           <FsTurnpoint id="4WAYS" lat="-32.4916" lon="147.91973" altitude="222" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
           <FsTurnpoint id="AFARM" lat="-33.1903" lon="147.9857" altitude="250" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
@@ -427,7 +427,7 @@
         </FsTaskShortestPath>
       </FsTask>
       <FsTask id="18" name="No decelerator, Epilogue" tracklog_folder="">
-        <FsScoreFormula id="GAP2016" min_dist="7" nom_dist="70" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" jump_the_gun_factor="0" jump_the_gun_max="0" use_arrival_position_points="0" use_leading_points="1" score_back_time="5" double_leading_weight="1"/>
+        <FsScoreFormula id="GAP2016" min_dist="7" nom_dist="70" nom_time="1.5" nom_launch="0.96" nom_goal="0.25" jump_the_gun_factor="0" jump_the_gun_max="0" use_arrival_position_points="0" use_arrival_time_points="0" use_distance_squared_for_LC="1" use_leading_points="1" score_back_time="5" double_leading_weight="1"/>
         <FsTaskDefinition ss="2" es="3" goal="CIRCLE" groundstart="0">
           <FsTurnpoint id="4WAYS" lat="-32.4916" lon="147.91973" altitude="222" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
           <FsTurnpoint id="AFARM" lat="-33.1903" lon="147.9857" altitude="250" radius="400" open="2018-07-13T12:00:00Z" close="2018-07-13T20:00:00Z"/>
